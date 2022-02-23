@@ -8,11 +8,15 @@
   box-sizing: border-box;
 
   min-height: 70vh;
-  padding-top: 1.5rem;
+  padding: 1.5rem 2rem 0 2rem;
 
   border-radius: 11rem 0 11rem 11rem;
   background-color: $color-green;
+  background-image: url("/assets/images/icons/cutery.png");
+  background-position: center;
+
 }
+
 
 .article-last-img {
 
