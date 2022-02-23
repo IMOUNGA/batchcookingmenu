@@ -3,16 +3,41 @@
 // https://fonts.google.com/specimen/Josefin+Sans?preview.text=cooking&preview.text_type=custom
 
 html {
+  position: relative;
+  border: 1px red solid;
   font-size: 16px;
+
+  box-sizing: border-box;
+
 }
 
 body {
+  border: 2px green solid;
+  position: relative;
+
   margin: 0;
   padding: 0;
 
   font-size: 13px;
+
+  box-sizing: border-box;
+
 }
 
 h1 {
+  margin: 0;
   font-family: 'Josefin-BoldItalic', 'Josefin-MediumItalic', sans-serif;
+}
+
+h3 {
+  margin: 0;
+  font-family: 'Josefin-Medium', sans-serif;
+}
+
+.section {
+  padding-top: 2rem;
+
+  .section-texts {
+    text-align: center;
+  }
 }

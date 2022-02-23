@@ -1,0 +1,19 @@
+@import "variables";
+
+.nouveautes {
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+  box-sizing: border-box;
+
+  min-height: 70vh;
+  padding-top: 1.5rem;
+
+  border-radius: 11rem 0 11rem 11rem;
+  background-color: $color-green;
+}
+
+.article-last-img {
+
+}

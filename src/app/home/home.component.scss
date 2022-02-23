@@ -1,19 +1,27 @@
+main {
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+  box-sizing: border-box;
+}
+
 header {
   display: flex;
   flex-direction: column;
   justify-content: end;
 
-  width: 100%;
-  height: 30rem;
+  height: 100vh;
 
-  padding: 1rem;
+  padding: 2rem;
+
+  box-sizing: border-box;
 
   color: #fff;
   background-image: url("/assets/images/screen/background-home.jpg");
   background-size: cover;
 
   h1 {
-    margin: 0;
     color: #8AA399;
     width: 50%;
     font-size: 2.5rem;
@@ -21,17 +29,27 @@ header {
   }
 
   p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     position: absolute;
-    top: 9rem;
-    left: 14rem;
+    top: 16rem;
+    left: 12rem;
 
     margin: 0;
+
+    height: 12rem;
+    width: 12rem;
 
     line-height: 1.7;
     font-size: 2rem;
     font-family: 'Cookie-Regular', sans-serif;
-    text-align: right;
+    text-align: center;
 
+    background-color: #fff;
     color: #8AA399;
+    border-radius: 50%;
   }
 }
