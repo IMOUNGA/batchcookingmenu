@@ -40,10 +40,39 @@ section {
       border-radius: .5rem;
     }
 
+    .invalid-email {
+      margin-bottom: 1rem;
+      border-radius: .5rem;
+      background-color: #DA2C38;
+
+      p {
+        color: #fff;
+        text-shadow: none;
+        font-weight: bold;
+      }
+    }
+
+  }
+
+  .registered {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .valid-logo-wrapper {
+      background-image: url("/assets/images/logos/verifie.png");
+      background-size: contain;
+      margin-top: 2rem;
+      height: 3rem;
+      width: 3rem;
+      border-radius: 50%;
+    }
   }
 
 }
 
+.hidden { display: none }
 
 @media (min-width: $min-width-large-devices-like-desktop) {
   section {

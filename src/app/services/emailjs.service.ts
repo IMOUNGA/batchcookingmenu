@@ -18,18 +18,25 @@ export class EmailjsService {
   }
 
   send(user_name: string, user_email: string): object {
-    return emailjs.send(environment.email.serviceId, environment.email.templateId, {user_name: user_name, user_email: user_email})
+    let result = {};
+
+    emailjs.send(environment.email.serviceId, environment.email.templateId, {
+      user_name: user_name,
+      user_email: user_email
+    })
       .then(response => {
-        return {
+        result =  {
           status: response.status,
           text: response.text,
           result: true
         };
       }, err => {
-        return {
+        result = {
           err: err,
           result: false
         };
       });
+
+    return result;
   }
 }
