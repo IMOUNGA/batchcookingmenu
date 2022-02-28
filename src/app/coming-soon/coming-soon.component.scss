@@ -1,0 +1,41 @@
+@import "variables";
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0 2rem;
+
+  height: 100vh;
+
+  color: #fff;
+  font-size: .8rem;
+  text-align: center;
+  text-shadow: 0 0 6px #000;
+  line-height: 1.5;
+
+  background-image: url("/assets/images/fakedata/5.jpg");
+  background-size: cover;
+
+  h1{
+    margin-bottom: 1rem;
+  }
+}
+
+
+@media (min-width: $min-width-medium-devices-like-tablets) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: $min-width-large-devices-like-desktop) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  app-newsletter {
+    min-width: 50%;
+  }
+}
