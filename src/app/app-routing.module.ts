@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import {HomeComponent} from "./home/home.component";
+import {ComingSoonComponent} from "./coming-soon/coming-soon.component";
 
 const routes: Routes = [
   {
     path: '',
-    component: HomeComponent,
+    component: ComingSoonComponent,
   },
   /*{
     path: 'pages',
