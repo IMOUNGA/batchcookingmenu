@@ -2,6 +2,13 @@
   * SCSS VARIABLES FOR BATCHCOOKING MENU
  */
 
+/*** Media Queries ***/
+$min-width-small-devices-like-landscape-phone: 576px;
+$min-width-medium-devices-like-tablets: 768px;
+$min-width-large-devices-like-desktop: 992px;
+$min-width-x-large-devices-like-large-desktop: 1200px;
+$min-width-xx-large-devices-like-extra-large-desktop: 1400px;
+
 
 /*** Color ***/
 $text-colors-banner: #fff;
