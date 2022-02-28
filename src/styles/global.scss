@@ -35,13 +35,24 @@ h1 {
 
 h3 {
   margin: 0;
-  font-family: 'Josefin-Medium', sans-serif;
+  font-size: 1.5rem;
+  font-family: haboro-contrast-normal,sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .section {
-  padding-top: 2rem;
+  padding-top: 1.8rem;
 
   .section-texts {
     text-align: center;
+    font-family: $home-section-texts-p-font-family;
+    font-weight: $home-section-texts-p-font-weight;
+    font-style: $home-section-texts-p-font-style;
+
+    p {
+      font-size: 1rem;
+      text-shadow: 0 1px 5px rgba(13, 13, 13, 51%);
+    }
   }
 }
