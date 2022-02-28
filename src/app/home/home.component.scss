@@ -21,6 +21,12 @@ header {
   background-image: url("/assets/images/screen/background-home.jpg");
   background-size: cover;
 
+  .subtitle {
+    display: flex;
+    justify-content: end;
+    height: 60%;
+  }
+
   h1 {
     color: #8AA399;
     width: 50%;
@@ -33,10 +39,6 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    position: absolute;
-    top: 16rem;
-    left: 12rem;
 
     margin: 0;
 
