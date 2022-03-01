@@ -22,12 +22,29 @@
   h1{
     margin-bottom: 1rem;
   }
+
+  .social-media {
+    height: 4rem;
+    width: 4rem;
+
+    margin-top: 2rem;
+
+    border-radius: 50px;
+    background-image: url("/assets/images/logos/instagram.png");
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 
 @media (min-width: $min-width-medium-devices-like-tablets) {
   h1 {
     font-size: 2rem;
+  }
+
+  .social-media {
+    height: 5rem;
+    width: 5rem;
   }
 }
 

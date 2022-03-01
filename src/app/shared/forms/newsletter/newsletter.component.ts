@@ -34,10 +34,9 @@ export class NewsletterComponent implements OnInit {
 
       if (email.match(validateEmailRegex)) {
         this.isRegistered = true;
-        //const result = this.email.send(name, email);
+        const result = this.email.send(name, email);
       } else {
         this.invalidMail = true;
-        console.error('Mail value is not a mail');
       }
     }
   }
