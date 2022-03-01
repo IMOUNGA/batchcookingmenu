@@ -4,7 +4,7 @@
 
 html {
   position: relative;
-  border: 1px red solid;
+  //border: 1px red solid;
   font-size: 16px;
 
   min-height: 100vh;
@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  border: 2px green solid;
+  //border: 2px green solid;
   position: relative;
 
   margin: 0;
@@ -55,4 +55,8 @@ h3 {
       text-shadow: 0 1px 5px rgba(13, 13, 13, 51%);
     }
   }
+}
+
+.hidden {
+  display: none;
 }
