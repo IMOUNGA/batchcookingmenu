@@ -6,6 +6,10 @@ import {ComingSoonComponent} from "./coming-soon/coming-soon.component";
 const routes: Routes = [
   {
     path: '',
+    /*children: [{
+      path: '',
+      loadChildren: () => import('./coming-soon/coming-soon.module').then(m => m.ComingSoonModule),
+    }],*/
     component: ComingSoonComponent,
   },
   /*{
