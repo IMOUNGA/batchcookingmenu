@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {ArticlesService} from "../../../services/articles.service";
 
 @Component({
   selector: 'app-nouveautes',
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NouveautesComponent implements OnInit {
 
-  constructor() { }
+  articles: any = [];
+
+  constructor(private articlesService: ArticlesService) { }
 
   ngOnInit(): void {
   }
+
+  getArticles(): void {
+    this.articles = this.articlesService.latestArticles;
+  }
+
+
 
 }
