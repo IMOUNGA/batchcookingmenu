@@ -18,7 +18,9 @@ header {
   box-sizing: border-box;
 
   color: #fff;
-  background-image: url("/assets/images/screen/background-home.jpg");
+  //background-image: url("/assets/images/screen/background-home.jpg");
+  background-image: url("/assets/images/screen/home.jpg");
+  background-position: center;
   background-size: cover;
 
   .subtitle {
